@@ -5,17 +5,35 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "start": "webpack",
+    "dev": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.10",
+    "cssnano": "^3.10.0",
+    "eslint": "^4.18.2",
+    "eslint-loader": "^2.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.0.6",
+    "node-sass": "^4.7.2",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
     "pug": "^2.0.1",
     "pug-loader": "https://github.com/pugjs/pug-loader/tarball/master",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "stylelint": "^9.1.1",
+    "stylelint-webpack-plugin": "^0.10.3",
+    "uglifyjs-webpack-plugin": "^1.2.3",
     "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11"
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.0.0-alpha6"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0"
   }
 }
